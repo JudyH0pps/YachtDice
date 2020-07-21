@@ -105,8 +105,8 @@ export default {
     border-top: 2px white dotted !important;
 }
 .paper{
-    display:inline-block;
     background:#eeeeee;
+    float: left;
 }
 table{
     margin: 15px 15px 15px 15px;

@@ -2,16 +2,19 @@
   <div class="board">
     <h1>Yacht Dice</h1>
     <score/>
+    <gameboard/>
   </div>
 </template>
 
 <script>
 import score from './score.vue'
+import gameboard from './gameboard.vue'
 
 export default {
   name: 'board',
   components: {
     score,
+    gameboard,
   },
   props: {
     msg: String
